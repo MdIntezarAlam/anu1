@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="tsyle.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <title>tdd</title>
+  <!-- This is Bootstrap css & Js -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- this is bootstrap  Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-1" href="#">TRAVIGATE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item fs-1">
+            <a class="nav-link active fs-2" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item fs-1">
+            <a class="nav-link active fs-2" aria-current="page" href="discover.html">Discover</a>
+          </li>
+          <!-- First Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle nav-link active  fs-2" href="./ttd.html" id="navbarDropdown"
+              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Things to do
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="fs-4" href="./ttd.html">In Winter</a></li>
+              <li><a class="fs-4" href="./ttd.html">In Summer</a></li>
+              <li><a class="fs-4" href="./ttd.html">During Rain</a></li>
+              <li><a class="fs-4" href="./ttd.html">With Family</a></li>
+              <li><a class="fs-4" href="./ttd.html">Your Solo Trip</a></li>
+              <li><a class="fs-4" href="./ttd.html">With Your Soulmate</a></li>
+            </ul>
+          </li>
+          <!-- End -->
+          <!-- Second Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle nav-link active  fs-2 " href="./trip.html" id="navbarDropdown"
+              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Your Trip
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="fs-4" href="./trip.html">Meetings</a></li>
+              <li><a class="fs-4" href="./trip.html">Weddings</a></li>
+              <li><a class="fs-4" href="./trip.html">Vacation</a></li>
+            </ul>
+          </li>
+          <!-- End -->
+          <li class="nav-item fs-1">
+            <a class="nav-link active fs-2" aria-current="page" href="aboutus.html">About Us</a>
+          </li>
+        </ul>
+        <form class="d-flex fs-2">
+          <input class="form-control me-4 fs-4" type="search" placeholder="Search" aria-label="Search">
+          <a href="./login.html" class="btn btn-outline-success navbar-dark bg-primary navbar-brand fs-4" type="submit">Login</a>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--bootstrap end-->
+
+  <div class="abcontainer">
+    <img src="./images/aboutuspagetop.jpg" alt="" />
+  </div>
+  <div class="abtextbox">
+    <h2>THINGS TO DO</h2>
+  </div>
+  <section>
+    <span>IN WINTER</span>
+    <div class="ccontainer">
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/ADVENTURE.jpeg" />
+            </div>
+            <div class="contentBx">
+              <h3>GULMARG<br /><span>KASHMIR</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/bg3.jpeg" />
+            </div>
+            <div class="contentBx">
+              <h3>SHIMLA<br /><span>HIMACHAL PRADESH</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/bg1.jpeg"></img>
+              <!-- <img src="gimages/ttmanali.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>MANALI<br /><span>HIMACHAL PRADESH</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="ccontainer">
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/bg2.jpeg"></img>
+              <!-- <img src="gimages/ttauli.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>AULI<br /><span>UTTARAKHAND</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/illustration3.jpg"></img>
+              <!-- <img src="gimages/ttdalhousie.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>DALHOUSIE<br /><span>HIMACHAL PRADESH</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/nature.jpeg"></img>
+              <!-- <img src="gimages/ttrann.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>RANN OF KUTCH<br /><span>GUJARAT</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <span>IN SUMMER</span>
+    <div class="ccontainer">
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/bg1.jpeg"></img>
+              <!-- <img src="gimages/ttmunnar.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>MUNNAR<br /><span>KERELA</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/rathambore np.jpg"></img>
+              <!-- <img src="gimages/ttrishikesh.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>RISHIKESH<br /><span>UTTARAKHAND</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/religious-places-of-india.jpeg"></img>
+              <!-- <img src="gimages/ttshillong.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>SHLLONG<br /><span>MEGHALAYA</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="ccontainer">
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/d3.jpg"></img>
+              <!-- <img src="gimages/ttooty.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>OOTY<br /><span>TAMIL NADU</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/budget-friendly-places.jpeg"></img>
+              <!-- <img src="gimages/ttgangtok.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>GANGTOK<br /><span>SIKKIM</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/CRUISE.jpeg"></img>
+              <!-- <img src="gimages/ttmahabaleshwar.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>MAHABALESHWAR<br /><span>MAHARASHTRA</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <span>IN MONSOON</span>
+    <div class="ccontainer">
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/d1.jpg"></img>
+              <!-- <img src="gimages/ttcoorg.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>COORG<br /><span>KARNATAKA</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/d2.jpg"></img>
+              <!-- <img src="gimages/ttvalley.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>VALLEY OF FLOWERS<br /><span>UTTARAKHAND</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/d3.jpg"></img>
+              <!-- <img src="gimages/ttudaipur.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>UDAIPUR<br /><span>RAJASTHAN</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="ccontainer">
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/d3.jpg"></img>
+              <!-- <img src="gimages/ttalleppey.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>ALLEPPEY<br /><span>KERALA</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/bg1.jpeg"></img>
+              <!-- <img src="gimages/ttkodaik.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>KODAIKANAL<br /><span>TAMIL NADU</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/gatewayofindia.jpg"></img>
+              <!-- <img src="gimages/ttcherrapunji.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>CHERRAPUNJI<br /><span>MEGHALAYA</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <span>WITH FAMILY</span>
+    <div class="ccontainer">
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/bg1.jpeg"></img>
+              <!-- <img src="gimages/ttsrinagar.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>SRINAGAR<br /><span>KASHMIR</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/illustration1.jpg"></img>
+              <!-- <img src="gimages/ttnainital.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>NAINITAL<br /><span>UTTARAKHAND</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/illustration2.png"></img>
+              <!-- <img src="gimages/ttjaipur.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>JAIPUR<br /><span>RAJASTHAN</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="ccontainer">
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/illustration3.jpg"></img>
+              <!-- <img src="gimages/ttdharamshala.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>DHARAMSHALA<br /><span>HIMACHAL PRADESH</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/bg1.jpeg"></img>
+              <!-- <img src="gimages/ttleh.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>LADAKH<br /><span>KASHMIR</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/img1.jpeg"></img>
+              <!-- <img src="gimages/ttmc.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>MCLEODGANJ<br /><span>HIMACHAL PRADESH</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <span>WITH FAMILY</span>
+    <div class="ccontainer">
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/nature.jpeg"></img>
+              <!-- <img src="gimages/ttsrinagar.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>SRINAGAR<br /><span>KASHMIR</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/rathambore np.jpg"></img>
+              <!-- <img src="gimages/ttnainital.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>NAINITAL<br /><span>UTTARAKHAND</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/logo.jpeg"></img>
+              <!-- <img src="gimages/ttjaipur.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>JAIPUR<br /><span>RAJASTHAN</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="ccontainer">
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/nature.jpeg"></img>
+              <!-- <img src="gimages/ttdalhousie.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>DHARAMSHALA<br /><span>HIMACHAL PRADESH</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/qutubminar.jpeg"></img>
+              <!-- <img src="gimages/ttleh.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>LADAKH<br /><span>KASHMIR</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/historical.jpeg"></img>
+              <!-- <img src="gimages/ttooty.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>MCLEODGANJ<br /><span>HIMACHAL PRADESH</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <span>YOUR SOLO TRIP</span>
+    <div class="ccontainer">
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/bg1.jpeg"></img>
+              <!-- <img src="gimages/punjab.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>AMRITSAR<br /><span>PUNJAB</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/d1.jpg"></img>
+              <!-- <img src="gimages/delhi.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>DELHI<br /><span></span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/d3.jpg"></img>
+              <!-- <img src="gimages/ttjaipur.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>JAIPUR<br /><span>RAJASTHAN</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="ccontainer">
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/illustration1.jpg"></img>
+              <!-- <img src="gimages/ttudaipur.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>UDAIPUR<br /><span>RAJASTHAN</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/bg1.jpeg"></img>
+              <!-- <img src="gimages/ttvaranasi.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>
+                VARANASI<br />
+                <span>UTTAR PRADESH</span>
+              </h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/bg1.jpeg"></img>
+              <!-- <img src="gimages/ttgoa.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>GOA<br /><span></span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <span>WITH YOUR LOVE</span>
+    <div class="ccontainer">
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/bg1.jpeg"></img>
+              <!-- <img src="gimages/ttmanali.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>MANALI<br /><span>HIMACHAL PRADESH</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/bg1.jpeg"></img>
+              <!-- <img src="gimages/ttladakh.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>LEH LADAKH<br /><span>JAMMU & KASHMIR</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/qutubminar.jpeg"></img>
+              <!-- <img src="gimages/ttcoorg.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>COORG<br /><span>KARNATAKA</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="ccontainer">
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/illustration3.jpg"></img>
+              <!-- <img src="gimages/ttjaisal.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>JAISALMER<br /><span>RAJASTHAN</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/mountains.jpeg"></img>
+              <!-- <img src="gimages/ttagra.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>
+                AGRA<br />
+                <span>UTTAR PRADESH</span>
+              </h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <a href="">
+            <div class="imgBx">
+              <img src="./images/nature.jpeg"></img>
+              <!-- <img src="gimages/ttdalhousie.jpg" /> -->
+            </div>
+            <div class="contentBx">
+              <h3>DALHOUSIE<br /><span>HIMACHAL PRADESH</span></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
